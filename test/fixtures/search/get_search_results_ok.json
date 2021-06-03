@@ -28,13 +28,6 @@
             "entity_type": "foo",
             "epic_state_id": 123,
             "external_id": "foo",
-            "external_tickets": [{
-                "epic_ids": [123],
-                "external_id": "foo",
-                "external_url": "foo",
-                "id": "12345678-9012-3456-7890-123456789012",
-                "story_ids": [123]
-            }],
             "follower_ids": ["12345678-9012-3456-7890-123456789012"],
             "group_mention_ids": ["12345678-9012-3456-7890-123456789012"],
             "id": 123,
@@ -175,7 +168,7 @@
             "epic_id": 123,
             "estimate": 123,
             "external_id": "foo",
-            "external_tickets": [{
+            "external_links": [{
                 "epic_ids": [123],
                 "external_id": "foo",
                 "external_url": "foo",
