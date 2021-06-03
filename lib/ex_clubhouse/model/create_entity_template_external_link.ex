@@ -1,6 +1,6 @@
-defmodule ExClubhouse.Model.CreateEntityTemplateExternalTicket do
+defmodule ExClubhouse.Model.CreateEntityTemplateExternalLink do
   @moduledoc """
-  Entity template external ticket input model
+  Entity template external link input model
   """
 
   @type t :: %__MODULE__{

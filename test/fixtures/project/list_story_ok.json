@@ -13,7 +13,7 @@
     "epic_id": 123,
     "estimate": 123,
     "external_id": "foo",
-    "external_tickets": [{
+    "external_links": [{
         "epic_ids": [123],
         "external_id": "foo",
         "external_url": "foo",
