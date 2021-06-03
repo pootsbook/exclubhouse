@@ -12,7 +12,6 @@ defmodule ExClubhouse.Parse.Rules do
   @iteration_stats_mapping %Model.IterationStats{}
   @epic_stats_mapping %Model.EpicStats{}
   @stats_mapping %Model.EpicStats{}
-  @support_ticket_mapping %Model.SupportTicket{}
   @threaded_comment_mapping %Model.ThreadedComment{}
   @category_mapping %Model.Category{}
   @milestone_stats_mapping %Model.MilestoneStats{}
@@ -79,7 +78,7 @@ defmodule ExClubhouse.Parse.Rules do
   }
 
   @story_slim_mapping %Model.StorySlim{
-    external_links: [@external_links_mapping],
+    external_links: [@external_link_mapping],
     labels: [@label_mapping],
     stats: @story_stats_mapping,
     story_links: [@story_link_mapping]
@@ -124,7 +123,7 @@ defmodule ExClubhouse.Parse.Rules do
     branches: [@branch_mapping],
     comments: [@comment_mapping],
     commits: [@commit_mapping],
-    external_links: [@external_links_mapping],
+    external_links: [@external_link_mapping],
     files: [@file_mapping],
     labels: [@label_mapping],
     linked_files: [@linked_file_mapping],
